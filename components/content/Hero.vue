@@ -63,7 +63,8 @@ css({
         lineHeight: '{text.xl.lineHeight}',
       },
       img: {
-        width: '100%',
+        width: '85%',
+        justifySelf: 'center',
         //aspectRatio: '16 / 9',
         objectFit: 'cover',
         borderRadius: '{radii.md}',

@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
     title: 'Joshua Avrick',
-    description: 'Full Stack Developer',
+    description: 'Software Developer',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -26,16 +26,26 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      // twitter: 'nuxtlabs',
+      // instagram: 'atinuxt',
+      github: {
+        icon: 'uil:github',
+        label: 'Github',
+        href: 'https://github.com/JHAvrick'
+      },
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/in/joshavrick/'
       }
     },
     form: {
       successMessage: 'Message sent. Thank you!'
+    },
+    integrations: {
+      formspree: { 
+        url: 'https://formspree.io/f/xkndgzvb' 
+      }
     }
   }
 })
