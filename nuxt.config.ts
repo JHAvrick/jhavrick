@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   router: {
     base: '/jhavrick/'
   },
-
+  generate: {
+    dir: 'docs' //So that it can be hosted on github pages
+  },
+  build: {
+    dir: 'docs' //So that it can be hosted on github pages
+  },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
 
