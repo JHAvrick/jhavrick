@@ -48,9 +48,11 @@ css({
     '.layout': {
       display: 'grid',
       gridTemplateColumns: 'repeat(1, minmax(0, 1fr))',
+      //gridTemplateColumns: 'auto auto',
       gap: '{space.8}',
       '@lg': {
-        gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+        //gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
+        gridTemplateColumns: 'auto auto',
       },
       '.title': {
         fontSize: '{text.4xl.fontSize}',
@@ -63,8 +65,8 @@ css({
         lineHeight: '{text.xl.lineHeight}',
       },
       img: {
-        width: '85%',
-        justifySelf: 'center',
+        width: '100%',
+        justifySelf: 'flex-end',
         //aspectRatio: '16 / 9',
         objectFit: 'cover',
         borderRadius: '{radii.md}',
