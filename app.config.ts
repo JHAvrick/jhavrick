@@ -1,4 +1,8 @@
 export default defineAppConfig({
+  target: 'static',
+  router: {
+    base: '/jhavrick/'
+  },
   alpine: {
     title: 'Joshua Avrick',
     description: 'Software Developer',
