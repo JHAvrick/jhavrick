@@ -12,7 +12,7 @@ export default defineNuxtConfig({
    * 
    * See example here: https://github.com/lucpotage/nuxt-github-pages/tree/main
    */
-  app: {
+  app: process.env.NODE_ENV === 'development' ? undefined : {
     baseURL: "/jhavrick/",
     buildAssetsDir: 'assets'
     //buildAssetsDir: "/_nuxt/",

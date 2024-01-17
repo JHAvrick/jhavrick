@@ -6,7 +6,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "deploy": "gh-pages -d dist",
+    "deploy": "node gh-pages-deploy",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
