@@ -6,7 +6,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "deploy": "node gh-pages-deploy",
+    "deploy": "nuxi generate && node gh-pages-deploy",
     "preview": "nuxi preview",
     "lint": "eslint ."
   },
