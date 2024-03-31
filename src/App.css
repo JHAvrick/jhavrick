@@ -43,8 +43,8 @@ body {
 }
 
 ::selection {
-  background: var(--accent-color); /* WebKit/Blink Browsers */
-  opacity: .5;
+  background: rgb(161, 211, 255);
+  opacity: .25;
 }
 
 a {

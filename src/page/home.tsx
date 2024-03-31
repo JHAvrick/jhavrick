@@ -18,6 +18,7 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoJquery } from "react-icons/bi";
 import { SiWebpack, SiRollupdotjs, SiVitess, SiBabel,SiMocha, SiJest, SiExpress, SiNodedotjs } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 function HomePage(){
     return (
@@ -70,7 +71,7 @@ function HomePage(){
                 <p> 
                     Currently, I am <i><strong><span className='accent-color'>open for work. </span></strong></i>
                      If you'd like to get in touch with me about that or anything at all, don't hesitate to reach 
-                     out via <a href='mailto:josh@avrick.dev' target='_blank' rel='noopener noreferrer'>email</a> or this <Link href='/contact'>contact form</Link>.
+                     out via <a href='mailto:josh@avrick.dev' target='_blank' rel='noopener noreferrer'>email</a> or this <Link to='/contact'>contact form</Link>.
                 </p> 
         
                 <a className='button' href="/jhavrick/downloads/Joshua_Avrick_Resume_2024.pdf" target='_blank'> Resume/CV <IoMdDownload className='ml-5' /> </a>
