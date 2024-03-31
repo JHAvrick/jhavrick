@@ -49,7 +49,7 @@ function HomePage(){
                     ]} />
                     <LinkList icon={<HiOutlineAtSymbol />} label="Contact" links={[
                         { href: 'mailto:josh@avrick.dev', text: 'josh@avrick.dev' },
-                        { href: '/contact', text: 'Contact Form' },
+                        { href: '/jhavrick/contact', text: 'Contact Form' },
                     ]} />
                     <LinkList icon={<IoLocationSharp />} label="Location" links={[
                         { href: '', text: 'Alexandria, VA' },
