@@ -9,7 +9,7 @@ import ProjectsPage from './page/projects'
 
 function App() {
 	return (
-		<Router>
+		<Router basename='/jhavrick/'>
 			<IconContext.Provider value={{ style: { marginTop: 2 } }}>
 				<Routes>
 					<Route path="/" element={<HomePage />} />

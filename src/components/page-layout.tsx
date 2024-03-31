@@ -100,15 +100,15 @@ function PageLayout(props: PageLayoutProps) {
                         </AnimatePresence>
                     </motion.div>
                     <footer className='flex align-center p-5 opacity-50 text-xl'>
-                        <a title='GitHub' className='icon-link mr-4' href='https://github.com/JHAvrick' target='_blank' rel='noopener noreferrer'>
+                        <Link title='GitHub' className='icon-link mr-4' to='https://github.com/JHAvrick' target='_blank' rel='noopener noreferrer'>
                             <FaGithub />
-                        </a>
-                        <a title='LinkedIn' className='icon-link mr-4' href='https://www.linkedin.com/in/joshavrick/' target='_blank' rel='noopener noreferrer'>
+                        </Link>
+                        <Link title='LinkedIn' className='icon-link mr-4' to='https://www.linkedin.com/in/joshavrick/' target='_blank' rel='noopener noreferrer'>
                             <FaLinkedin />
-                        </a>
-                        <a title='CodePen' className='icon-link mr-4' href='https://codepen.io/jhavrick' target='_blank' rel='noopener noreferrer'>
+                        </Link>
+                        <Link title='CodePen' className='icon-link mr-4' to='https://codepen.io/jhavrick' target='_blank' rel='noopener noreferrer'>
                             <FaCodepen />
-                        </a>
+                        </Link>
                     </footer>
                 </main>
             </section>

@@ -73,7 +73,7 @@ function HomePage(){
                      out via <a href='mailto:josh@avrick.dev' target='_blank' rel='noopener noreferrer'>email</a> or this <a href='/contact'>contact form</a>.
                 </p> 
         
-                <a className='button' href="/downloads/Joshua_Avrick_Resume_2024.pdf" target='_blank'> Resume/CV <IoMdDownload className='ml-5' /> </a>
+                <a className='button' href="/jhavrick/downloads/Joshua_Avrick_Resume_2024.pdf" target='_blank'> Resume/CV <IoMdDownload className='ml-5' /> </a>
             </section>
             <hr className='mb-5' />
             <section>
