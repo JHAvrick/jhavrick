@@ -49,7 +49,7 @@ function HomePage(){
                     ]} />
                     <LinkList icon={<HiOutlineAtSymbol />} label="Contact" links={[
                         { href: 'mailto:josh@avrick.dev', text: 'josh@avrick.dev' },
-                        { href: '/jhavrick/contact', text: 'Contact Form' },
+                        { href: '/contact', text: 'Contact Form' },
                     ]} />
                     <LinkList icon={<IoLocationSharp />} label="Location" links={[
                         { href: '', text: 'Alexandria, VA' },
@@ -70,7 +70,7 @@ function HomePage(){
                 <p> 
                     Currently, I am <i><strong><span className='accent-color'>open for work. </span></strong></i>
                      If you'd like to get in touch with me about that or anything at all, don't hesitate to reach 
-                     out via <a href='mailto:josh@avrick.dev' target='_blank' rel='noopener noreferrer'>email</a> or this <a href='/contact'>contact form</a>.
+                     out via <a href='mailto:josh@avrick.dev' target='_blank' rel='noopener noreferrer'>email</a> or this <Link href='/contact'>contact form</Link>.
                 </p> 
         
                 <a className='button' href="/jhavrick/downloads/Joshua_Avrick_Resume_2024.pdf" target='_blank'> Resume/CV <IoMdDownload className='ml-5' /> </a>
