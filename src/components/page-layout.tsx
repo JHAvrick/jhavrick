@@ -80,7 +80,7 @@ function PageLayout(props: PageLayoutProps) {
                         <ul className='page-layout__nav-list'>
                             <li> <Link to='/' className={props.path === '/' ? 'current-link' : ''} >Home</Link> </li>
                             {/* <li> <Link to='/articles' className={props.path === '/articles' ? 'current-link' : ''}>Articles</Link> </li> */}
-                            <li> <Link to='/projects' className={props.path === '/projects' ? 'current-link' : ''}>Projects</Link> </li>
+                            {/* <li> <Link to='/projects' className={props.path === '/projects' ? 'current-link' : ''}>Projects</Link> </li> */}
                             <li> <Link to='/contact' className={props.path === '/contact' ? 'current-link' : ''}>Contact</Link> </li>
                         </ul>
                     </nav>

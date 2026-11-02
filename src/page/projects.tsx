@@ -16,9 +16,9 @@ function ProjectsPage() {
 
             <h1 className='mt-16'> Projects </h1>
             <p className='mb-16'> 
-                Here you'll find some pet projects of mine with a short write-up. Nothing too crazy here, but consider these
-                projects a microcosm of my interests, skills, and professional experience. Please do visit the readmes on GitHub or peruse
-                the codebase for a deeper dive.
+                Here you'll find a modest collection of projects both recent and ancient, baked and underbaked. 
+                These are largely hobby projects, created for my own amusement or occasionally as a means of structured learning. 
+                If you're looking for something with a little more substance, I would direct you instead toward my resume.
             </p>
             <hr />
             <ProjectItem 
@@ -66,7 +66,7 @@ function ProjectsPage() {
             />
             <hr />
 
-            <p> <i> Plus many other projects and code samples available on my GitHub... </i> </p>
+            <p> <i> Other projects and code samples available on my GitHub... </i> </p>
             <hr />
 
         </PageLayout>
